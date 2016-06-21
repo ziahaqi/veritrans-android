@@ -4,7 +4,7 @@
 
 general:
     artifacts:
-        - /home/ubuntu/veritrans-android-example/app/build/outputs/apk/
+        - /home/ubuntu/veritrans-android/app/build/outputs/apk/
 machine:
     ruby:
         version: 2.0.0-p648
