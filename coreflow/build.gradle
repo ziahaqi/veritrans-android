@@ -42,7 +42,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -60,7 +60,7 @@ android {
             buildConfigField "String", "MIXPANEL_TOKEN", MIXPANEL_TOKEN_PRODUCTION
         }
     }
-    defaultPublishConfig DEFAULT_PUBLISH
+    defaultPublishConfig =  DEFAULT_PUBLISH
     publishNonDefault true
 }
 
