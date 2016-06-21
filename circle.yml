@@ -25,7 +25,7 @@ test:
     override:
         # Build
         - (./gradlew assemble):
-            timeout: 600
+            timeout: 360
 
 # Deployment section
 deployment:

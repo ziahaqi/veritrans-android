@@ -128,8 +128,8 @@ publishing {
 }
 
 bintray {
-    user = System.getenv('BINTRAY_USER')
-    key = System.getenv('BINTRAY_KEY')
+    user = System.getenv('rakawm')
+    key = System.getenv('655af59215c0cabd17d2b379d0947a69a0a7eba1')
     configurations = ['archives']
     pkg {
         repo = 'maven'
