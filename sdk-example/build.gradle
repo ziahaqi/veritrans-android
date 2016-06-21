@@ -22,13 +22,13 @@ android {
     productFlavors {
         development {
             applicationId "id.co.veritrans.sdk.sample.development"
-            buildConfigField "String", "BASE_URL", MERCHANT_BASE_URL_SANDBOX
-            buildConfigField "String", "CLIENT_KEY", MERCHANT_CLIENT_KEY_SANDBOX
+            buildConfigField "String", "BASE_URL", "\"MERCHANT_BASE_URL_SANDBOX\""
+            buildConfigField "String", "CLIENT_KEY", "\"MERCHANT_CLIENT_KEY_SANDBOX\""
         }
         production {
             applicationId "id.co.veritrans.sdk.sample.production"
-            buildConfigField "String", "BASE_URL", MERCHANT_BASE_URL_PRODUCTION
-            buildConfigField "String", "CLIENT_KEY", MERCHANT_CLIENT_KEY_PRODUCTION
+            buildConfigField "String", "BASE_URL", "\"MERCHANT_BASE_URL_PRODUCTION\""
+            buildConfigField "String", "CLIENT_KEY", "\"MERCHANT_CLIENT_KEY_PRODUCTION\""
         }
     }
     buildTypes {
